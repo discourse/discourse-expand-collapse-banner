@@ -1,0 +1,18 @@
+//MOBILE DEVICES
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+    .col2, .col3, .col4 {
+        width: 90%;
+    }
+    .feature-list {
+        text-align: center;
+    }
+    .banner-content_toggle_wrapper {
+    float: none;
+    padding-left: 0;
+    }
+    #banner-content_wrap_toggle {
+    height: 35px;
+    line-height: 35px;
+    }
+}
