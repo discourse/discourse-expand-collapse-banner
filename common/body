@@ -1,0 +1,22 @@
+<script>
+jQuery(document).ready(function($)
+{
+  
+  $("#banner-content_wrap_toggle").click(function()
+  {
+    
+    $("#banner-content_wrap").slideToggle( "slow");
+    
+	  if ($("#banner-content_wrap_toggle").text() == "Expand Details")
+      {			
+        $("#banner-content_wrap_toggle").html("Hide Details")
+      }
+	  else 
+      {		
+        $("#banner-content_wrap_toggle").text("Expand Details")
+      }
+    
+  });  
+  
+});
+</script>
