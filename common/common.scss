@@ -51,6 +51,11 @@ $background-color: #BFD7FF;
     background-color: $background-color; /* to be sure that even if the image above will not be loaded there will be at least a colored background */
 }
 
+#banner-content_wrap {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
 .x-title {
     padding-left: 15px;
     padding-right: 15px;
