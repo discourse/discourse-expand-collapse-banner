@@ -1,5 +1,6 @@
 {
   "name": "Expand/collapse banner",
   "about_url": "https://github.com/discourse/discourse-expand-collapse-banner",
-  "license_url": "https://github.com/discourse/discourse-expand-collapse-banner/blob/master/LICENSE"
+  "license_url": "https://github.com/discourse/discourse-expand-collapse-banner/blob/master/LICENSE",
+  "component": true
 }
